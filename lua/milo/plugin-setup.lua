@@ -32,6 +32,8 @@ return packer.startup(function(use)
   -- packer can manage itself
   use("wbthomason/packer.nvim")
 
+  -- Theme
+  use("folke/tokyonight.nvim")
 
  if packer_bootstrap then
     require("packer").sync()
