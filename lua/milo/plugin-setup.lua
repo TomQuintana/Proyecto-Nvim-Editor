@@ -44,6 +44,14 @@ return packer.startup(function(use)
         end,
     }
 
+    -- Git plug
+    use {
+      'tanvirtin/vgit.nvim',
+      requires = {
+        'nvim-lua/plenary.nvim'
+      }
+    }
+
  if packer_bootstrap then
     require("packer").sync()
   end
