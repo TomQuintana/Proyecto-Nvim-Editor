@@ -1,6 +1,7 @@
---require("milo.core.keymaps")
+require("milo.core.keymaps")
 require("milo.core.options")
 require("milo.core.colorschema")
 require("milo.plugin-setup")
 require("milo.plugins.tresitter")
 require("milo.plugins.gitvim")
+require("milo.plugins.telescope")
