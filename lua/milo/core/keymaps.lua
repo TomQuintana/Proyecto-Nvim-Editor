@@ -6,3 +6,10 @@ local keymap = vim.keymap
 keymap.set('n', '<leader>w', ':w<CR>',{noremap = true})
 keymap.set('n', '<leader>q', ':q<CR>',{noremap = true})
 keymap.set('n', '<leader>wq', ':wq<CR>',{noremap = true})
+
+-- Telescope
+local builtin = require('telescope.builtin')
+keymap.set('n', '<leader>ff', builtin.find_files, {})
+keymap.set('n', '<leader>fg', builtin.live_grep, {})
+keymap.set('n', '<leader>fb', builtin.buffers, {})
+keymap.set('n', '<leader>fh', builtin.help_tags, {})
