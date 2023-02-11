@@ -84,7 +84,7 @@ return packer.startup(function(use)
   }
 
   -- Bracket hightlight
---  use('p00f/nvim-ts-rainbow')
+  use('p00f/nvim-ts-rainbow')
 
   if packer_bootstrap then
     require("packer").sync()
