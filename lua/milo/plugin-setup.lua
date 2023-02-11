@@ -58,6 +58,10 @@ return packer.startup(function(use)
     end,
   }
 
+  -- auto closing
+  use("windwp/nvim-autopairs") -- autoclose parens, brackets, quotes, etc...
+  use({ "windwp/nvim-ts-autotag", after = "nvim-treesitter" }) -- autoclose tags
+
   -- Git plug
   use {
     'tanvirtin/vgit.nvim',
@@ -78,6 +82,9 @@ return packer.startup(function(use)
     'nvim-lualine/lualine.nvim',
     requires = { 'kyazdani42/nvim-web-devicons', opt = true }
   }
+
+  -- Bracket hightlight
+--  use('p00f/nvim-ts-rainbow')
 
   if packer_bootstrap then
     require("packer").sync()
