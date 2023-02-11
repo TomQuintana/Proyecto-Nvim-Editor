@@ -16,3 +16,8 @@ keymap.set('n', '<leader>fh', builtin.help_tags, {})
 
 -- NerdTree 
 keymap.set("n", "<leader>nt", ":NvimTreeFindFileToggle<CR>") --  go to previous tab
+
+-- Buffer
+keymap.set("n", "<leader>s", ":BufferLineCycleNext<CR>")
+keymap.set("n", "<leader>a", ":BufferLineCyclePrev<CR>")
+keymap.set("n", "<leader>bf", ":BufferLinePickClose<CR>")
