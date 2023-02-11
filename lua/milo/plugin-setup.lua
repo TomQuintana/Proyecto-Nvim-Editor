@@ -35,6 +35,9 @@ return packer.startup(function(use)
   -- Theme
   use("folke/tokyonight.nvim")
 
+  -- Generate indent line
+  use('Yggdroot/indentLine')
+
   use {
     'nvim-tree/nvim-tree.lua',
     requires = {
