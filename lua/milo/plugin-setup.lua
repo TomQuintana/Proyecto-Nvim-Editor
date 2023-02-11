@@ -46,6 +46,9 @@ return packer.startup(function(use)
     tag = 'nightly' -- optional, updated every week. (see issue #1193)
   }
 
+  -- Bufferline
+  use {'akinsho/bufferline.nvim', tag = "v3.*", requires = 'nvim-tree/nvim-web-devicons'}
+
   -- Tresitter 
   use {
     'nvim-treesitter/nvim-treesitter',
