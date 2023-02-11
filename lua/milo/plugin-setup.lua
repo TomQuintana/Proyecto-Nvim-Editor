@@ -86,6 +86,9 @@ return packer.startup(function(use)
   -- Bracket hightlight
   use('p00f/nvim-ts-rainbow')
 
+  -- Move to a new window
+  use("christoomey/vim-tmux-navigator")
+
   if packer_bootstrap then
     require("packer").sync()
   end
