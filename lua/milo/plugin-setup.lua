@@ -49,6 +49,11 @@ return packer.startup(function(use)
   -- Bufferline
   use {'akinsho/bufferline.nvim', tag = "v3.*", requires = 'nvim-tree/nvim-web-devicons'}
 
+  -- autocompletion
+  use("hrsh7th/nvim-cmp") -- completion plugin
+  use("hrsh7th/cmp-buffer") -- source for text in buffer
+  use("hrsh7th/cmp-path") -- source for file system paths
+
   -- Tresitter 
   use {
     'nvim-treesitter/nvim-treesitter',
