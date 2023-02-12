@@ -21,3 +21,6 @@ keymap.set("n", "<leader>nt", ":NvimTreeFindFileToggle<CR>") --  go to previous 
 keymap.set("n", "<leader>s", ":BufferLineCycleNext<CR>")
 keymap.set("n", "<leader>a", ":BufferLineCyclePrev<CR>")
 keymap.set("n", "<leader>bf", ":BufferLinePickClose<CR>")
+
+--TODO: add keymap for todo comments
+--TODO: see is that necesary trouble plug
