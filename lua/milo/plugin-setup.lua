@@ -110,6 +110,14 @@ return packer.startup(function(use)
   -- Move to a new window
   use("christoomey/vim-tmux-navigator")
 
+  -- Todo Comments
+  use {
+  "folke/todo-comments.nvim",
+    requires = "nvim-lua/plenary.nvim",
+    config = function()
+      end
+  }
+
   if packer_bootstrap then
     require("packer").sync()
   end
