@@ -24,3 +24,4 @@ keymap.set("n", "<leader>bf", ":BufferLinePickClose<CR>")
 
 --TODO: add keymap for todo comments
 --TODO: see is that necesary trouble plug
+--TODO: add keymaps for mergetool 
