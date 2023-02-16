@@ -15,3 +15,4 @@ require("milo.plugins.lsp.lspsaga") --NOTE: see more docu of this plug
 require("milo.plugins.lsp.lspconfig") --NOTE: see more docu of this plug
 require("milo.plugins.todocomments")
 require("milo.plugins.comments")
+require("milo.plugins.mergeConflict")

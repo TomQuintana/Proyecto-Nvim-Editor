@@ -121,6 +121,9 @@ return packer.startup(function(use)
   -- commenting with gc
   use("numToStr/Comment.nvim")
 
+  -- Git merge conflict
+  use ('akinsho/git-conflict.nvim')
+
   if packer_bootstrap then
     require("packer").sync()
   end
