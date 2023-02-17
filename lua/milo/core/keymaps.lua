@@ -22,6 +22,10 @@ keymap.set("n", "<leader>s", ":BufferLineCycleNext<CR>")
 keymap.set("n", "<leader>a", ":BufferLineCyclePrev<CR>")
 keymap.set("n", "<leader>bf", ":BufferLinePickClose<CR>")
 
+-- Markdow preview
+keymap.set("n", "<leader>mp", ":Glow<CR>")
+keymap.set("n", "<leader>mc", ":Glow!<CR>")
+
 --TODO: add keymap for todo comments
 --TODO: see is that necesary trouble plug
 --TODO: add keymaps for mergetool 

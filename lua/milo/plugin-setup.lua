@@ -124,6 +124,9 @@ return packer.startup(function(use)
   -- Git merge conflict
   use ('akinsho/git-conflict.nvim')
 
+  -- Markdown preview
+  use("ellisonleao/glow.nvim")
+
   if packer_bootstrap then
     require("packer").sync()
   end
