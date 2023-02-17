@@ -29,3 +29,7 @@ keymap.set("n", "<leader>mc", ":Glow!<CR>")
 --TODO: add keymap for todo comments
 --TODO: see is that necesary trouble plug
 --TODO: add keymaps for mergetool 
+
+-- Trouble toggle
+keymap.set("n", "<leader>tg", ":TroubleToggle<CR>")
+
