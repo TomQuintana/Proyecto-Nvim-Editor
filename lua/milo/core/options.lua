@@ -12,3 +12,6 @@ opt.autoindent = true
 
 -- line wrapping
 opt.wrap = true
+
+-- deactivate swap files
+opt.swapfile = false
