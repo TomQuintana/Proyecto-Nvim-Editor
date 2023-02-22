@@ -25,7 +25,7 @@ require('lualine').setup {
         colored = true, -- Displays a colored diff status if set to true
         diff_color = {
           -- Same color values as the general color option can be used here.
-          added    = { fg = '#ffaa88'},    -- Changes the diff's added color
+          added    = { fg = '#f7f39b'},    -- Changes the diff's added color
           modified = { fg = '#2fdcea'}, -- Changes the diff's modified color
           removed  = { fg = '#e77260'}, -- Changes the diff's removed color you
         },
