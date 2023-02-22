@@ -31,3 +31,6 @@ keymap.set("n", "<leader>mc", ":Glow!<CR>")
 -- Trouble toggle
 keymap.set("n", "<leader>tg", ":TroubleToggle<CR>")
 
+-- Todo Comments
+keymap.set("n", "<leader>td", ":TodoLocList:<CR>")
+
