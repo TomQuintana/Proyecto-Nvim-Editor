@@ -36,7 +36,7 @@ return packer.startup(function(use)
   use("folke/tokyonight.nvim")
 
   -- Generate indent line
-  use('Yggdroot/indentLine')
+  use("lukas-reineke/indent-blankline.nvim")
 
   use {
     'nvim-tree/nvim-tree.lua',
