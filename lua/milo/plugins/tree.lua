@@ -50,9 +50,9 @@ nvimtree.setup({
           error = "",
         },
       },
-  -- 	git = {
-  -- 		ignore = false,
-  -- 	},
+  	git = {
+  		enable= false,
+  	},
 })
 
 -- open nvim-tree on setup
