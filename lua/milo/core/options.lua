@@ -15,3 +15,6 @@ opt.wrap = true
 
 -- deactivate swap files
 opt.swapfile = false
+
+-- Show doble quote in json files
+vim.g.indentLine_setConceal = 0
