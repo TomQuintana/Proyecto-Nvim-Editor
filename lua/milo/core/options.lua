@@ -17,4 +17,4 @@ opt.wrap = true
 opt.swapfile = false
 
 -- Show doble quote in json files
-vim.g.indentLine_setConceal = 0
+--vim.g.indentLine_setConceal = 0
