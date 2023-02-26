@@ -97,6 +97,10 @@ return packer.startup(function(use)
     -- or                            , branch = '0.1.x',
     requires = { {'nvim-lua/plenary.nvim'} }
   }
+  use {
+    "nvim-telescope/telescope-file-browser.nvim",
+    requires = { "nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim" }
+  }
 
   -- Status bar
   use {
@@ -132,6 +136,7 @@ return packer.startup(function(use)
   use{"folke/trouble.nvim",
     requires = "nvim-tree/nvim-web-devicons"
   }
+
 
   if packer_bootstrap then
     require("packer").sync()

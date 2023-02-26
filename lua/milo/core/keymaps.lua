@@ -12,7 +12,10 @@ local builtin = require('telescope.builtin')
 keymap.set('n', '<leader>ff', builtin.find_files, {})
 keymap.set('n', '<leader>fg', builtin.live_grep, {})
 keymap.set('n', '<leader>fb', builtin.buffers, {})
-keymap.set('n', '<leader>fh', builtin.help_tags, {})
+
+-- Telescope find .env files
+-- NOTE: in the future join this config with telescope.set()
+keymap.set('n', '<leader>fh', ":Telescope file_browser hidden=true<CR>")
 
 -- NerdTree 
 keymap.set("n", "<leader>nt", ":NvimTreeFindFileToggle<CR>") --  go to previous tab
