@@ -53,6 +53,10 @@ nvimtree.setup({
   	git = {
   		enable= false,
   	},
+  update_focused_file = {
+    enable = true,
+    update_cwd = true
+  },
 })
 
 -- open nvim-tree on setup
