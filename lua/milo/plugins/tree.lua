@@ -20,6 +20,7 @@ nvimtree.setup({
         folder = {
           arrow_closed = "", -- arrow when folder is closed
           arrow_open = "", -- arrow when folder is open
+          default = "📁", -- arrow when folder is open
         },
       },
     },
