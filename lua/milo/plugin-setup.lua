@@ -35,19 +35,19 @@ return packer.startup(function(use)
   -- Theme
   use("folke/tokyonight.nvim")
 
+  -- Icons
+use("nvim-tree/nvim-web-devicons")
+
   -- Generate indent line
   use("lukas-reineke/indent-blankline.nvim")
 
   use {
     'nvim-tree/nvim-tree.lua',
-    requires = {
-      'nvim-tree/nvim-web-devicons', -- optional, for file icons
-    },
     tag = 'nightly' -- optional, updated every week. (see issue #1193)
   }
 
   -- Bufferline
-  use {'akinsho/bufferline.nvim', tag = "v3.*", requires = 'nvim-tree/nvim-web-devicons'}
+  use {'akinsho/bufferline.nvim', tag = "v3.*"}
 
   -- autocompletion
   use("hrsh7th/nvim-cmp") -- completion plugin
