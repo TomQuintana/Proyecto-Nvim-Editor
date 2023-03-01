@@ -36,7 +36,7 @@ return packer.startup(function(use)
   use("folke/tokyonight.nvim")
 
   -- Icons
-use("nvim-tree/nvim-web-devicons")
+  use("nvim-tree/nvim-web-devicons")
 
   -- Generate indent line
   use("lukas-reineke/indent-blankline.nvim")
@@ -136,6 +136,9 @@ use("nvim-tree/nvim-web-devicons")
   use{"folke/trouble.nvim",
     requires = "nvim-tree/nvim-web-devicons"
   }
+
+  -- Surround
+    use('tpope/vim-surround')
 
 
   if packer_bootstrap then

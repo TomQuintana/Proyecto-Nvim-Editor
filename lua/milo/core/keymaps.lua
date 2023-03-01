@@ -37,3 +37,5 @@ keymap.set("n", "<leader>tg", ":TroubleToggle<CR>")
 -- Todo Comments
 keymap.set("n", "<leader>td", ":TodoLocList:<CR>")
 
+-- NOTE: 
+-- vim-surround function whit visual mode and press shift+s and caracter for put
