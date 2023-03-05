@@ -46,11 +46,11 @@ require("nvim-web-devicons").set_icon {
     icon = "",
     color = "#F9F2F2",
     cterm_color = "65",
-    name = "Zsh"
+    name = "Git"
   },
   ["package.json"] = {
     icon = "",
-    color = "#C0E07B",
+    color = "#98B45D",
     cterm_color = "65",
     name = "Package"
   },
@@ -62,7 +62,7 @@ require("nvim-web-devicons").set_icon {
   },
   ["js"] = {
     icon = "",
-    color = "#F9F378",
+    color = "#E8D51E",
     cterm_color = "65",
     name = "JS"
   }
