@@ -22,3 +22,5 @@ require("milo.plugins.mergeConflict")
 require("milo.plugins.markdownPreview")
 require("milo.plugins.trouble")
 require("milo.plugins.indentation")
+require("milo.plugins.glow")
+
