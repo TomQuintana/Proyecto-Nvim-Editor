@@ -6,6 +6,7 @@ require("milo.plugins.nvim-cmp") --NOTE: see more docu of this plug
 require("milo.plugins.lsp.mason") --NOTE: see more docu of this plug
 require("milo.plugins.lsp.lspsaga") --NOTE: see more docu of this plug
 require("milo.plugins.lsp.lspconfig") --NOTE: see more docu of this plug
+require("milo.plugins.lsp.null-ls")
 require("milo.plugins.icons")
 require("milo.plugins.tree")
 require("milo.plugins.tresitter") --NOTE: see more docu of this plug
