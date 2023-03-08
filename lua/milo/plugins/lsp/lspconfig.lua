@@ -62,10 +62,10 @@ end
 --   on_attach = on_attach,
 -- })
 
--- configure eslint
-require'lspconfig'.eslint.setup{
-
-}
+-- -- configure eslint
+-- require'lspconfig'.eslint.setup{
+--
+-- }
 
 -- configure typescript server with plugin
 typescript.setup({

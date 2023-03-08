@@ -10,6 +10,7 @@ local diagnostics = null_ls.builtins.diagnostics -- to setup linters
 
 null_ls.setup({
   sources = {
-    diagnostics.eslint_d
+    diagnostics.eslint_d,
+    formatting.prettier
   }
 })
