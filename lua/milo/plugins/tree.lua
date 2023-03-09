@@ -52,9 +52,15 @@ nvimtree.setup({
           error = "",
         },
       },
-  	git = {
-  		enable= false,
-  	},
+  	-- git = {
+  	-- 	enable= true,
+  	-- },
+  --highlight_git = false,
+  git = {
+    enable = true,
+    ignore = false
+  },
+
   update_focused_file = {
     enable = true,
     update_cwd = true
@@ -84,3 +90,5 @@ local function open_nvim_tree(data)
 end
 
 vim.api.nvim_create_autocmd({ "VimEnter" }, { callback = open_nvim_tree })
+
+--TODO: change icons for git
