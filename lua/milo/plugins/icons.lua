@@ -65,7 +65,30 @@ require("nvim-web-devicons").set_icon {
     color = "#E8D51E",
     cterm_color = "65",
     name = "JS"
-  }
+  },
+  [".eslintrc.json"] = {
+    icon = "",
+    color = "#5988CF",
+    cterm_color = "65",
+    name = "Eslint"
+  },
+  [".eslintignore"] = {
+    icon = " ",
+    color = "#F9F2F2",
+    cterm_color = "65",
+    name = "Eslintignore"
+  },
+  ['package-lock.json'] = {
+    icon = " ",
+    color = "#7a0d21",
+    name = "Package"
+  },
+  [".eslintrc.cjs"] = {
+    icon = "",
+    color = "#5988CF",
+    cterm_color = "65",
+    name = "Eslint"
+  },
 }
 
 require("nvim-web-devicons").set_default_icon('', '#41535b')
