@@ -49,7 +49,7 @@ require("nvim-web-devicons").set_icon {
     name = "Git"
   },
   ["package.json"] = {
-    icon = "",
+    icon = " ",
     color = "#98B45D",
     cterm_color = "65",
     name = "Package"
@@ -67,7 +67,7 @@ require("nvim-web-devicons").set_icon {
     name = "JS"
   },
   [".eslintrc.json"] = {
-    icon = "",
+    icon = "",
     color = "#5988CF",
     cterm_color = "65",
     name = "Eslint"
@@ -79,19 +79,34 @@ require("nvim-web-devicons").set_icon {
     name = "Eslintignore"
   },
   ['package-lock.json'] = {
-    icon = " ",
+    icon = "",
     color = "#7a0d21",
     name = "Package"
   },
   [".eslintrc.cjs"] = {
-    icon = "",
+    icon = "",
     color = "#5988CF",
     cterm_color = "65",
     name = "Eslint"
   },
+  ["Makefile"] = {
+    icon = "",
+    color = "#6d8086",
+    cterm_color = "65",
+    name = "Makefile"
+  },
+  -- ["ts"] = {
+  --   icon = "ﯤ",
+  --   color = "#519aba",
+  --   cterm_color = "65",
+  --   name = "TS"
+  -- },
 }
 
 require("nvim-web-devicons").set_default_icon('', '#41535b')
 require("nvim-web-devicons").set_default_icon('', '#7a0d21')
 require("nvim-web-devicons").set_default_icon('', '#e37933')
 require("nvim-web-devicons").set_default_icon('js', '#cbcb41')
+require("nvim-web-devicons").set_default_icon('', '#6d8086')
+--require("nvim-web-devicons").set_default_icon(' ', '#519aba')
+
