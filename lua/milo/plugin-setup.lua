@@ -34,10 +34,12 @@ return packer.startup(function(use)
 
   -- Theme
   use("folke/tokyonight.nvim")
+  use("catppuccin/nvim")
+  use("sainnhe/everforest")
 
   -- Icons
   use("nvim-tree/nvim-web-devicons")
-
+ 
   -- Generate indent line
   use("lukas-reineke/indent-blankline.nvim")
 
