@@ -2,6 +2,8 @@
 
 ## Keymaps 
 
+### Leader key is space
+
 ### Telescope
 
 - find files
@@ -24,6 +26,7 @@ leader + fg
 leader + fb 
 ```
 
+
 ### Buffer 
 
 - Next buffer
@@ -41,12 +44,14 @@ leader + a
 leader + bf 
 ```
 
+
 ### MarkDown Preview 
 
 - Open markdown preview
 ```bash
 leader + mp
 ```
+
 
 ###  Git
 
@@ -60,6 +65,7 @@ leader + dp
 leader + df 
 ```
 
+
 ### Toggle 
 
 - Activate toggle
@@ -67,14 +73,10 @@ leader + df
 leader + tg
 ```
 
+
 ### Todo Comments 
 
 - Activate todo comments
 ```bash
 leader + td
 ```
-
-
-
-
-
