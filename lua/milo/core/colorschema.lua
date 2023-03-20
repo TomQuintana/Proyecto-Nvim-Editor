@@ -1,25 +1,29 @@
--- set colorscheme to nightfly with protected call
--- in case it isn't installed
-
-
 local status, _ = pcall(vim.cmd, "colorscheme catppuccin-mocha")
 if not status then
   print("Colorscheme not found!") -- print error if colorscheme not installed
   return
 end
--- vim.g.everforest_background = 'medium'
--- vim.g.everforest_enable_italic = '1'
--- vim.g.everforest_transparent_background = '1'
--- --TODO: 
-
---change color of all things 
-vim.cmd [[highlight DiagnosticSignError guifg=#E84153 ]]
---vim.cmd [[highlight DiagnosticFloatingError guifg=#56B6C2 ]]
+vim.g.everforest_background = 'hard'
 
 vim.opt.termguicolors = true
--- Error in position
---vim.cmd [[highlight DiagnosticVirtualTextError guifg=#E84153 ]]
 
---vim.cmd [[highlight NvimTreeGitDirty guifg=#F0F25F ]]
---vim.cmd [[highlight NvimTreeRootFolfer guifg=#F0F25F ]] -- cambia las flechas de color
---vim.cmd [[highlight Title guifg=#F0F25F ]] -- cambia las flechas de color
+-- Colors for theme
+vim.cmd [[highlight @variable guifg=#89b4fa ]]
+vim.cmd [[highlight Function guifg=#f9e2af ]]
+vim.cmd [[highlight @Field guifg=#9cdefe]]
+vim.cmd [[highlight @Property guifg=#9cdefe]]
+vim.cmd [[highlight @Parameter guifg=#89b4fa]]
+vim.cmd [[highlight rainbowcol1 guifg=#f9e2af]]
+vim.cmd [[highlight rainbowcol3 guifg=#f38ba8]]
+
+
+vim.cmd [[highlight @text guifg=#E84153 ]]
+vim.cmd [[highlight @text.literal guifg=#E84153 ]]
+
+-- Colors of TODO comment
+vim.cmd [[highlight TodofgTODO guifg=#f9e2af ]]
+vim.cmd [[highlight TodoBgTODO gui=bold guifg=#000000 guibg=#f9e2af ]]
+vim.cmd [[highlight TodoSignTODO guifg=#f9e2af]]
+
+--change color of diagnostic icon error
+vim.cmd [[highlight DiagnosticSignError guifg=#E84153 ]]
